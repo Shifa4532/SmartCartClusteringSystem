@@ -1,0 +1,53 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Conda environments
+.conda/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# VS Code
+.vscode/
+
+# Anaconda
+anaconda_projects/
+anaconda_upload/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Trained models
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.h5
+
+# Logs
+*.log
+
+# Python testing/cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
